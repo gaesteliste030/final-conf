@@ -1,7 +1,7 @@
 var assert = require("assert");
 var config = require("../bin/index");
 
-describe('Config', function () {
+describe('Functional', function () {
     describe('#getValue()', function () {
         var testValue = "test value";
 
@@ -27,6 +27,13 @@ describe('Config', function () {
     });
 });
 
+describe('Resolver', function () {
+    describe('Get value from .env file', function () {
+        it('should return "1"', function () {
+            assert.equal(1, config.getValue("TEST_ENV_FILE", 0));
+        });
+    });
+});
 
 describe("Singleton", function () {
     it('ensure singleton', function () {
