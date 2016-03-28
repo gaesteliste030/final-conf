@@ -5,7 +5,8 @@
     "sourceMap": true,
     "sourceRoot": "./src",
     "outDir": "./bin",
-    "removeComments": true
+    "removeComments": true,
+    "declaration": true
   },
   "exclude": [
     "node_modules"

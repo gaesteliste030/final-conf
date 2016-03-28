@@ -45,6 +45,8 @@ var Config = (function () {
     };
     return Config;
 }());
+exports.Config = Config;
 var singleton = new Config();
-module.exports = singleton;
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = singleton;
 //# sourceMappingURL=index.js.map

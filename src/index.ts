@@ -4,7 +4,7 @@ import {InMemoryCache} from "./cache/provider/inMemoryCache";
 import {ConfigResolver} from "./resolver/configResolver";
 import {EnvResolver} from "./resolver/provider/envResolver";
 
-class Config
+export class Config
 {
     private cacheInstance:CacheInterface;
 
@@ -83,4 +83,4 @@ class Config
 
 const singleton = new Config();
 
-export = singleton;
+export default singleton;
