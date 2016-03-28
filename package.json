@@ -1,0 +1,19 @@
+{
+  "name": "final-conf",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaesteliste030/final-conf.git"
+  },
+  "homepage": "https://github.com/gaesteliste030/final-conf.git",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha ./test/index.js"
+  },
+  "dependencies": {
+    "dotenv": ">=2.0.0",
+    "config": ">=1.19.0",
+    "async": ">=2.0.0-rc.2",
+    "mocha": "^2.4.5"
+  }
+}
