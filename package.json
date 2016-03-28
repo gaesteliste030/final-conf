@@ -1,5 +1,6 @@
 {
   "name": "final-conf",
+  "description": "Get configurations values form various sources inlcuding env, dotenv, config and external urls.",
   "repository": {
     "type": "git",
     "url": "https://github.com/gaesteliste030/final-conf.git"
@@ -13,7 +14,6 @@
   "dependencies": {
     "dotenv": ">=2.0.0",
     "config": ">=1.19.0",
-    "async": ">=2.0.0-rc.2",
     "mocha": "^2.4.5"
   }
 }
